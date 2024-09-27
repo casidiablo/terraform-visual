@@ -61,7 +61,7 @@ export const C = (props: Props) => {
       },
       layout: {
         type: 'compactBox',
-        direction: 'TB',
+        direction: 'LR',
         getId: (graphData: PlanGraph.Entities.GraphData) => graphData.id,
         getWidth: () => 0,
         getHGap: (graphData: PlanGraph.Entities.GraphData) => graphData.hGap,
